@@ -1,0 +1,16 @@
+{
+  "name": "github-rate",
+  "version": "1.0.0",
+  "description": "Package that rate you github based on your activity.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,json index.js",
+    "test": "mocha -w ./tests/**/*Spec.js"
+  },
+  "keywords": [
+    "github",
+    "rate"
+  ],
+  "author": "Raabb Ajam <raabbajam@github.com>",
+  "license": "MIT"
+}
